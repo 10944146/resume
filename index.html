@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WN RESUME</title>
+    <link rel="stylesheet"  href="assets\css\W.css" type="text/css">
+</head>
+<script>
+    var flag = 0;
+    function start(){
+    var text = document.getElementById("blink");
+    if (!flag)
+    {
+    text.style.color = "#7E2E0B";
+    flag = 1;
+    }else{
+    text.style.color = "";
+    text.style.background = "";
+    flag = 0;
+    }
+    setTimeout("start()",500);
+    }
+</script>    
+    <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+<script>    
+    $(function() {
+    var $win = $(window);
+    var $backToTop = $('.js-back-to-top');
+    $win.scroll(function() {
+        if ($win.scrollTop() > 500) {
+        $backToTop.show();
+        } else {
+        $backToTop.hide();
+        }
+    });
+    $backToTop.click(function() {
+        $('html, body').animate({scrollTop: 0}, 200);
+    });
+    });
+</script>
+<body onload="start()">
+    <div>
+        <img class="honeyyy" src="assets/images/honey.png" alt="honney" width="100%" height="200px">
+    </div>
+    
+    <nav>
+        <ul class="nav">
+            <p class="navtext"><a href="#">| 關於我AboutMe |</a><a href="#"> 習得技能Skill |</a><a href="#"> 專業證照License |</a><a href="#"> 學業經歷Education |</a><a href="#"> 活動經歷Experience |</a></p>
+        </ul>    
+    </nav>
+    <section class="s1" >
+        <div class="hh">
+            <div class="title">
+                <h1>關於我 | About Me</h1>
+            </div>  
+            <div class="isme">
+                <img class="isme-pc" src="assets/images/bee.png" alt="isme" width="481px" height="343px">
+            </div>
+          
+            <div class="myinfotmation">
+                <br>
+                <div class="myname">
+                    <h1>李玟霓  Wen-Ni ,Li</h1>
+                </div>
+                <br><br>
+                <h2 class="inforh4">基本資料 | Personal</h2>
+                <div class="personal">
+                    <h4>天秤座   2001.10.15</h4> 
+                    <h4>桃園市平鎮區 Pingzhen,Taoyuan, Taiwan</h4>
+                    <h4>中原大學資訊管理系 CYCU Information Management</h4>
+                    <h4>笑點低、愛喝水、小宅宅</h4>
+                    <h4>拍照、喝水、看影片</h4>
+                </div>
+                <br>
+                <h2 class="inforhp">自我介紹 | Introduction</h2>
+                <div class="introduction">
+                    <p>
+                        我是李玟霓，目前在中原大學資管系就讀中，<br>
+                        因為多媒體課程，而有了一個學習設計自己個人網頁的機會。<br>
+                        在這網頁中，想像自己是一隻忙碌的蜜蜂，<br>
+                        每個求學階段都是我所要採取花蜜的花，<br>
+                        而我所擁有的每項活動經驗，都是我忙碌後的成果，<br>
+                        是我收集的花蜜，是滋養我一生的養分。
+                    </p>
+                </div>
+                <br>
+                <div class="iconso">
+                    <a href="https://www.facebook.com/liwenni15"><img  class="iconso-pc"src="assets/images/facebook.png" width="40px" height="40px"></a>
+                    <a href="https://www.instagram.com/_nini1015/?hl=zh-tw"><img class="iconso-pc" src="assets/images/instagram.png"width="40px" height="40px"></a>
+                    <a href="mailto:we751015@gmail.com"><img class="iconso-pc" src="assets/images/gmail.png"width="40px" height="40px"></a>
+                    <a href="https://line.me/ti/p/c1V2lFIJL2"><img class="iconso-pc" src="assets/images/line.png"width="40px" height="40px"></a>
+                    <a href="https:vsco.co/wen-nili/gallery"><img class="iconso-pc" src="assets/images/VSCO.png"width="40px" height="40px"></a>
+                </div>
+                <br>
+            </div>
+        </div>
+    </section> 
+    <br><br>
+    <blockquote class="saysth" id="blink">“  有能力做的事 , 就盡力做到好.  ”</blockquote>
+    <section class="s2" >
+        <div class="title1">
+            <h1>習得技能 | Skill</h1>
+        </div>
+        <div class="skillbar">
+            <p class="slillbarp">C#</p>
+            <div class="container">
+                <div class="skills C">80%</div>
+            </div>
+
+            <p class="slillbarp">Java</p>
+            <div class="container">
+                <div class="skills Java">80%</div>
+            </div>
+
+            <p class="slillbarp">Python</p>
+            <div class="container">
+                <div class="skills Python">70%</div>
+            </div>
+
+            <p class="slillbarp">Html</p>
+            <div class="container">
+                <div class="skills Html">80%</div>
+            </div>
+
+            <p class="slillbarp">CSS</p>
+            <div class="container">
+                <div class="skills CSS">70%</div>
+            </div>
+
+            <p class="slillbarp">JavaScript</p>
+            <div class="container">
+                <div class="skills JavaScript">60%</div>
+            </div>
+
+            <p class="slillbarp">Office</p>
+            <div class="container">
+                <div class="skills Office">90%</div>
+            </div>
+
+            <p class="slillbarp">Film Editing</p>
+            <div class="container">
+                <div class="skills Film Editing">75%</div>
+            </div>
+        </div> 
+    </section> 
+    <section class="s3" >
+        <div class="title1">
+            <h1>專業證照 | License</h1>
+            <div class="licenseall">
+                <div class="license1">
+                    <div class="license-1">
+                        <p class="license-text">TQC中文輸入 專業級</p>
+                        <img class="license-pc"src="assets/images/TQCChinese.jpg" width="200px" height="150px">
+                        <p class="license-pc">TQC中文輸入 專業級 <br> 新注音 81字/分鐘</p>
+                    </div>
+                    <div class="license-1">
+                        <p class="license-text">TQC英文輸入 實用級</p>
+                        <p class="license-pc">TQC英文輸入 實用級 <br> 29字/分鐘</p>
+                        <img class="license-pc" src="assets/images/TQCEnglish.jpg"width="200px" height="150px">
+                    </div>
+                    <div class="license-2">
+                        <p class="license-text">TQCWord2016 進階級</p>
+                        <p class="license-pc">TQCWord2016 進階級</p>
+                        <img class="license-pc" src="assets/images/TQCWord2016.jpg"width="200px" height="150px">
+                    </div>
+                    <div class="license-2">
+                        <p class="license-text">商教會–會計能力</p>
+                        <img class="license-pc" src="assets/images/Account1.jpg"width="200px" height="150px">
+                        <p class="license-pc">商教會–會計能力</p>
+                    </div>
+                </div>
+                <br>
+                <div class="license2">
+                    <div class="license-2">
+                        <p class="license-text">會計事務–人工記帳</p>
+                        <p class="license-pc">會計事務–人工記帳 丙級</p>
+                        <img class="license-pc" src="assets/images/Account2.jpg"width="200px" height="150px">
+                    </div>
+                    <div class="license-2">
+                        <p class="license-text">會計事務–資訊</p>
+                        <img class="license-pc" src="assets/images/Account3.jpg"width="200px" height="150px">
+                        <p class="license-pc">會計事務–資訊 丙級</p>
+                    </div>
+                    <div class="license-2">
+                        <p class="license-text">電腦應用軟體</p>
+                        <p class="license-pc">電腦應用軟體 丙級</p>
+                        <img class="license-pc" src="assets/images/Computer.jpg"width="200px" height="150px">
+                    </div>
+                </div>
+            </div>    
+        </div> 
+    </section>    
+    <section class="s4" >
+        <div class="title1">
+            <h1>學業經歷 | Education</h1>
+        </div> 
+        <div class="school">
+            <div class="arrowh">
+                <br><br>
+                <img src="assets/images/arrowy.png" width="100%" height="81px">
+            </div>
+            <div class="school-pc">
+                <a href=""><img src="assets/images/school1.png" width="251px" height="256px"></a>
+                <a href=""><img src="assets/images/school2.png" width="251px" height="256px"></a>
+                <a href=""><img src="assets/images/school3.png" width="251px" height="256px"></a>
+                <a href=""><img src="assets/images/school4.png" width="251px" height="256px"></a>
+            </div>
+            <!-- <div class="schoolife-pc">
+                <img src="assets/images/604.jpg" width="200px" height="150px">
+                <img src="assets/images/clvsc.jpg" width="200px" height="150px">
+                <img src="assets/images/cycu.jpg" width="200px" height="150px">
+            </div>
+            <h3 class="school-text">新勢國小  平鎮國中  中壢高商  中原大學</h3> -->
+        </div>
+    </section> 
+    
+    <section class="s5" >
+        <div class="title1">
+            <h1>活動經歷 | Experience</h1>
+        </div> 
+        <ul class="timeline">
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/animalclub.jpg" width="266px" height="200px">
+                    <h2 class="contenttt">動物保護社 | 攝影長</h2>	
+                    <h3 class="contentdd">/ 2018-3 /</h3>
+                    <h4>
+                        因為社團導覽會而加入此社團，當初會想參加的原因純粹是喜愛動物，但在社團課程裡面了解到，其實動物們很需要被保護及尊重，而人類大多沒有這些觀念。而我也在參與社團課程中，實際到了流浪動物之家參觀，儘管環境再好，也彌補不了他們心中的缺憾。
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/player1.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">文書處理選手培訓社團</h2>	
+                    <h3 class="contentdd">/ 2018-12~2019-11 /</h3>
+                    <h4>
+                        在一次的會計課中，帶過很多比賽的老師問了誰是班上打字最快的，很適合參加文書處理的培訓社團喔！而我也聽了老師的建議聽了說明會，雖然只是平常都會使用的Word、Excel和PowerPoint，但是在這個培訓社團裡，雖然數度想放棄，但我覺得我已經把他們學得淋漓盡致了～～
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/imprize.jpg" width="266px" height="200px">
+                    <h2 class="contenttt">108年度全國資訊月賽</h2>	
+                    <h3 class="contentdd">/ 2019-10-26 /</h3>
+                    <h4>
+                        雖然數度想放棄，但還是努力熬到比賽的那一天，儘管不是全國技藝競賽的正、副選手，卻還能在這個小型的全國競賽中獲得全國個人優勝、北區優勝，全國團體第一名、北區第一名，慶幸自己努力不懈，就算看到其他人都在玩樂自己卻窩在電腦教室練習，但最後的果實是最甜美的!
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/shop.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">企業概論<br>路得啟智學園</h2>	
+                    <h3 class="contentdd">/ 2020-11 /</h3>
+                    <h4>
+                        沒想到上大學第一個分組報告就那麼硬！認識新同學之餘還要自己接洽合作對象，協調販售產品、安排販售時間，每一週都和同學們在討論報告，但牽涉到金錢所以我們也很謹慎，害怕錢漏掉或是少計了！雖然中間在算錢的時候真的有些混亂，但慶幸我們完成了這一份任務，看著我們安排的貨量可以全數售罄，還有些盈餘可以捐贈給原合作廠商就覺得很有成就感。
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/nightfreshmen.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">資管之夜–大一</h2>	
+                    <h3 class="contentdd">/ 2020-11 /</h3>
+                    <h4>
+                        算是上大學第一個全班一起行動的活動，我們班獲得第二名～雖然我只是區區的道具組＋臨演，但我也全程參與了排練的過程，佩服擔任主角的同學，因為實在有好多台詞，不僅有時間上的限制，還要接受台下觀眾們的眼光、評論，勇氣十足，值得我學習！
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/Englishfilm.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">英文微電影</h2>	
+                    <h3 class="contentdd">/ 2020-12 /</h3>
+                    <h4>
+                        第一次嘗試自己寫劇本（還是英文的!）、演出和剪輯，也因為我是組長的關係，所以我要安排這一切的時程，雖然分量很重，但我們還是完成了這一份任務，學習到如何安排時間會比較輕鬆、怎麼寫劇本會比較連貫、剪輯的效果要如何比較吸引觀眾觀看。
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/work1.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">到親戚店裡打工</h2>	
+                    <h3 class="contentdd">/ 2021-1~2021-2 /</h3>
+                    <h4>
+                        人生第一份實際和顧客面對面的工作，雖然是親戚的店裡，但我還是很緊張，體驗日夜顛倒的工作。親戚的店是蔬菜水果商行，接近過年一天比一天早半小時起床，因為大家為了過年都忙著準備豐盛的食物都會提早出門，我沒想過凌晨四點會有人出門買菜！而且蔬菜水果每一天的價格都不一樣，對於金魚腦的我是很大的考驗！
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/manage1.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">管理學<br>中原動物服務社</h2>	
+                    <h3 class="contentdd">/ 2021-5 /</h3>
+                    <h4>
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/player1.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">受中原雙月刊採訪</h2>	
+                    <h3 class="contentdd">/ 2021-5 /</h3>
+                    <h4>
+                        沒想到大學四年中，有機會被學校的校刊採訪！在這一次的採訪主題＂動物保護＂中，實在有太多的感觸，說出口的其實很紊亂，但還是很榮幸自己說的話能夠整理、擷取且被寫在雙月刊上，讓閱讀者有機會了解我的想法，我也希望大家都能去看看雙月刊上面的內容～
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/vedio1.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">敘出你的創意影片徵選</h2>	
+                    <h3 class="contentdd">/ 2021-6 /</h3>
+                    <h4>
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/project1.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">多媒體<br>期中專案維徹樓</h2>	
+                    <h3 class="contentdd">/ 2021-11 /</h3>
+                    <h4>
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/game1.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">資料結構<br>雙人射擊遊戲|中原大學</h2>	
+                    <h3 class="contentdd">/ 2021-11 /</h3>
+                    <h4>
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="content">
+                    <img class="timeline-pc" src="assets/images/game1.jpg" width="266px" height="200px">                    
+                    <h2 class="contenttt">資管之夜–大二</h2>	
+                    <h3 class="contentdd">/ 2021-12 /</h3>
+                    <h4>
+                    </h4>
+                </div>
+            </li>
+
+    </section> 
+    <button class="js-back-to-top backtotop" title="TOP">▲</button>
+    <footer>
+        <div class="foot">
+            <p class="footp">Copyright©2021<br>CYCU IM, Wen-Ni,Li</p>
+        </div>
+    </footer>
+
+    <!-- <script src="myScript.js"></script> -->
+
+</body>
+</html>
